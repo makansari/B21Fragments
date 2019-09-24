@@ -17,6 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".com.second_package.MyDynamicActivity">
+
+        </activity>
+        <activity android:name=".com.second_package.StaticFragAct">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -19,7 +19,13 @@ class FragmentOne : Fragment() {
 
             Toast.makeText(activity,"Fragment Button",Toast.LENGTH_LONG).show()
             var fragTwo = FragmentTwo()
+            var bundle = Bundle()
+            bundle.putString("key","Ansari")
+            fragTwo.arguments = bundle
+
+
             fragmentManager!!.beginTransaction().replace(R.id.mylayout,fragTwo).addToBackStack(null).commit()
+
 
         })
         return view

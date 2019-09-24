@@ -4,17 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#73e98d">
+    android:background="#d27b7b">
 
-    <TextView
-        android:id="@+id/textView"
+    <Button
+        android:id="@+id/buttonStatData"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="119dp"
-        android:text="TextView"
-        android:textSize="20dp"
-        android:textColor="#f00"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="106dp"
+        android:text="Data"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
